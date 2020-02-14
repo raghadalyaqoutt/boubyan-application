@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "915851248546",
+    "firebase_url": "https://boubyan-24fb8.firebaseio.com",
+    "project_id": "boubyan-24fb8",
+    "storage_bucket": "boubyan-24fb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915851248546:android:73efdfe2bd6061ae6968fb",
+        "android_client_info": {
+          "package_name": "org.aisha.applicationboubyan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915851248546-brhq2vpvl6ddiok3pufhq3ndkpuan7f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.aisha.applicationboubyan",
+            "certificate_hash": "c58e87f6b92d3362b871959b76a8cf62e433c33e"
+          }
+        },
+        {
+          "client_id": "915851248546-7685stmuvca2vpocafmb06ioui60o5ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvNpsuvzOUlURKTjPb4ZxF-1ktsbPQjhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915851248546-7685stmuvca2vpocafmb06ioui60o5ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
