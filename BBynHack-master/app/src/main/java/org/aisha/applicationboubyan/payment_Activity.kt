@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_payment.*
 
 
@@ -17,8 +18,10 @@ class payment_Activity : AppCompatActivity() {
         supportActionBar!!.setIcon(R.drawable.ic_arrow_back_black_24dp)
 //        supportActionBar!!.setIcon(R.drawable.ic_boubyan_logo_og_new)
 
+
         btnConfirm.setOnClickListener {
             startActivity(Intent(this,Final_Activity::class.java))
+
             Toast.makeText(this, "Successfully Transfer", Toast.LENGTH_SHORT).show()
         }
 

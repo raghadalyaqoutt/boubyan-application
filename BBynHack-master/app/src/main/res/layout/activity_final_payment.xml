@@ -121,7 +121,7 @@
             android:layout_marginEnd="53dp"
             android:layout_marginBottom="65dp"
             android:fontFamily="TheSansArabic"
-            android:text="100.000 KWD"
+            android:text="190.000 KWD"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
 
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -13,12 +14,22 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar!!.setTitle("Bank Boubyan")
         supportActionBar!!.setIcon(getDrawable(R.drawable.ic_logo_bank))
+
+
 
         btnPay2.setOnClickListener {
             startActivity(Intent(this, payment_Activity::class.java))
-        }
+//                moneyy.text = "190.000"
+                    }
 
+
+
+//    fun set(v :View) {
+//        val hatha = findViewById<EditText>(R.id.moneyy)
+//
+//    }
    //     btnback.setOnClickListener { v: View? ->  setContentView(R.layout.activity_main)}
 
 
